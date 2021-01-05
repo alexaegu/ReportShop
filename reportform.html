@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Отчёт о доступных товарах</title>
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "ourstyles.css">
+  </head>
+  <body>
+    <fieldset>
+      <legend>
+        <strong>Отчёт о доступных товарах в магазине</strong>
+      </legend>
+      <form action = "fileReport.php" method = "post">
+        <table>
+        <tr>
+          <td style = "text-align: left; height: 35px" id = "helptext"> Введите номер категории товаров: </td>
+        </tr>
+        <tr>
+         <td> <input style = "width: 65%" type = "text" name = "name1" placeholder = "Номер категории" required> </td>
+        </tr>
+        <tr>
+         <td style = "height: 60px; transform: translateY(10px)"> <input type = "submit" autofocus = "true" value = "Сформировать отчёт" id = "indcolor"> </td>
+        </tr>
+        <tr>
+          <td> <p id = "helptext">В поле вводится цифровой номер категории товаров.</p> </td>
+        </tr>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>
